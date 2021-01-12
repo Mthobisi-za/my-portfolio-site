@@ -1,0 +1,60 @@
+.holder_form{
+    width: 100%;
+    height: 455px;
+    background-color: rgba(141, 21, 45, 0.493);
+}
+.tr_t{
+    width: 100%;
+}
+.a_th{
+    width: 40%;
+    animation: play 15s 10s infinite ease-in-out;
+}
+.a_hh{
+    text-decoration: none;
+    color: darkblue;
+}
+@keyframes play{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.form_se{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+}
+.n_name{
+    margin-left: 5%;
+}
+#name{
+    margin-left: 5%;
+}
+.name{
+    margin-left: 5%;
+    border: black solid 1px;
+    border-radius: 20%;
+    width: 50%;
+}
+.d_dis{
+    margin-left: 5%;
+}
+.text{
+    margin-left: 5%;
+    width: 70%;
+    height: 200px;
+}
+.btn{
+    margin-left: 5%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
